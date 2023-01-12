@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div>
       <button onClick={()=>setRoute("makeBlog")}>makeBlog</button>
-      <button onClick={()=>setRoute("wiewBlog")}>wiewBlog</button>
+      <button onClick={()=>setRoute("viewBlog")}>wiewBlog</button>
       {route==="makeBlog" && <MakeBlog/> }
-      {route==="makeBlog" && <ViewBlog/> }
+      {route==="viewBlog" && <ViewBlog/> }
     </div>
   )
 }
