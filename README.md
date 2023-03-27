@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# mod5-guide-3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(Same READEME.md file for the back-end and the front_end. I did not think that it was necessary to make two.)
 
-## Available Scripts
+For Module 5, guide 3 (REST API), I followed the video and did my best to understand. I am also going to do my best answering the "knowledge" and "skills" requirements, but please do let me know if my understanding of how it works is not right. 
 
-In the project directory, you can run:
 
-### `npm start`
+Understand the crud operations: 
+- CRUD is an acronym of 4 basic operations that can be performed on a database. C stands for Create, R stands for Read, U stands for Update and D stands for Delete.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Understand the flow of data from databases to the user:
+- You pick a host for the database, in this case MongoDB. MongoDB is an open source NoSQL database management program. Then you set the database up. The database works as a storage unit, it safely stores importand information as well as performing CRUD opperations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Understand http requests and how to handle them:
+- First I connect my mongodb server wia username and password. Then for example when a user makes a http.get request, it is sent to a specific URL and from there it should be accepted if the code is right.
 
-### `npm test`
+Understand different types of requests and map them to corresponding database request:
+- I am pretty sure that they are talking about the CRUD opperations and how that works from the front-end to the back-end and finally to the database/server. (and ofc back so that the user can make/change/delete/read somthing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Be able to make a REST API on top of a database:
+- Done.
 
-### `npm run build`
+Be able to connect a front-end to a database with the use of a backe-end:
+- And Done:)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I hope it looks alright, I had bit of a hard time with this guide (focusing on design), but I did my best to understand it:)

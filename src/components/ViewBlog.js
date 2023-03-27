@@ -4,7 +4,7 @@ export default ()=> {
   const [blogs, setBlogs] = useState([]);
   useEffect(()=>{
     const getData = async ()=>{
-      const response = await fetch('http://localhost:5002/p/blogs');
+      const response = await fetch('http://localhost:5002/m/blogs');
       const data = await response.json();
       console.log(data);
       setBlogs(data);

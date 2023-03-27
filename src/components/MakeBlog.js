@@ -9,7 +9,7 @@ const MakeBlog = ()=>{
       text
     }
     fetch(
-      "http://localhost:5002/p/blog",
+      "http://localhost:5002/m/blog",
       {
         method:"POST",
         body: JSON.stringify(bodyData),
@@ -24,7 +24,7 @@ const MakeBlog = ()=>{
       Make a blog:<br/>
       Title:<input value={title} onChange={e=>setTitle(e.target.value)} type="text"></input><br/>
       Main text:<textarea value={text} onChange={(e)=>setText(e.target.value)}></textarea>
-      <button onClick={submitBlog}>submit your blog</button>
+      <button onClick={submitBlog}>Submit</button>
     </div>
   )
 }

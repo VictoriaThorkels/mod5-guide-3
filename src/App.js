@@ -7,8 +7,8 @@ const App = () => {
   
   return (
     <div>
-      <button onClick={()=>setRoute("makeBlog")}>makeBlog</button>
-      <button onClick={()=>setRoute("viewBlog")}>viewBlog</button>
+      <button onClick={()=>setRoute("makeBlog")}>Make Blog</button>
+      <button onClick={()=>setRoute("viewBlog")}>View Blog</button>
       {route==="makeBlog" && <MakeBlog/> }
       {route==="viewBlog" && <ViewBlog/> }
     </div>
