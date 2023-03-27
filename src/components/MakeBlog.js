@@ -9,7 +9,7 @@ const MakeBlog = ()=>{
       text
     }
     fetch(
-      "http://localhost:5002/m/blog",
+      "https://mod5-guide-3-backend-7s6533aen-victoriathorkels.vercel.app/m/blogs",
       {
         method:"POST",
         body: JSON.stringify(bodyData),

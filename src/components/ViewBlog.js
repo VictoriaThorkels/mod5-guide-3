@@ -4,7 +4,7 @@ export default ()=> {
   const [blogs, setBlogs] = useState([]);
   useEffect(()=>{
     const getData = async ()=>{
-      const response = await fetch('http://localhost:5002/m/blogs');
+      const response = await fetch('https://mod5-guide-3-backend-7s6533aen-victoriathorkels.vercel.app/m/blogs');
       const data = await response.json();
       console.log(data);
       setBlogs(data);
